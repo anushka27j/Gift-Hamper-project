@@ -1,0 +1,63 @@
+/* filepath: d:\project\gift-hamper-app\src\components\LoginForm.css */
+.login-form-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.login-form-card {
+  background: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.12);
+  width: 100%;
+  max-width: 350px;
+}
+
+.login-form-card h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.login-form-card label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.login-form-card input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+
+.login-form-card input:focus {
+  border-color: #fda085;
+  outline: none;
+}
+
+.login-form-card button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #fda085;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.login-form-card button:hover {
+  background: #f6d365;
+  color: #333;
+}

@@ -1,0 +1,75 @@
+.page-container {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-card {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.10);
+  max-width: 500px;
+  width: 100%;
+}
+
+.page-card h1 {
+  color: #fda085;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.occasion-list {
+  list-style: none;
+  padding: 0;
+}
+
+.occasion-list li {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.occasion-list li:hover {
+  background: #fda085;
+  color: #fff;
+}
+
+.occasion-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.occasion-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.occasion-card:hover {
+  transform: scale(1.02);
+}
+
+.occasion-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.occasion-info {
+  padding: 1rem;
+  font-size: 1.1rem;
+}

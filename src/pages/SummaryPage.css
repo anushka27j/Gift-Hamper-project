@@ -1,0 +1,51 @@
+.page-container {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-card {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.10);
+  max-width: 500px;
+  width: 100%;
+}
+
+.page-card h1 {
+  color: #fda085;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.summary-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.summary-list li {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.confirm-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: #fda085;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.confirm-btn:hover {
+  background: #f6d365;
+  color: #333;
+}
